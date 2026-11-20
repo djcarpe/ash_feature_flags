@@ -60,7 +60,7 @@ defmodule AshFeatureFlags.MixProject do
   defp docs do
     [
       main: "readme",
-      extras: ["README.md"],
+      extras: ["README.md", "docs/database-store.md"],
       groups_for_modules: [
         Extension: [AshFeatureFlags, AshFeatureFlags.Info, AshFeatureFlags.Flag],
         Providers: [~r/AshFeatureFlags\.Provider/],
